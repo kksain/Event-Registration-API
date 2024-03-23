@@ -35,7 +35,7 @@ python manage.py runserver
 -List Events:
 Endpoint: GET /events/
 Description: This endpoint lists all available events.
-Example Usage: GET http://yourdomain.com/events/
+Example Usage: GET http://127.0.0.1:800/events/
 
 -Event Detail:
 Endpoint: GET /events/<event_id>/
@@ -53,7 +53,7 @@ Content-Type: application/json
     "event_id": 1,
     "participant": {
         "name": "kk sain",
-        "email": "ky841719@gmail.com"
+        "email": "kt841719@gmail.com"
     }
 }
 
